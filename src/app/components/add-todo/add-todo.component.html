@@ -1,0 +1,11 @@
+<div class="container mt-3 mb-2">
+  <form class="form" (ngSubmit)="onSubmit()">
+    <input
+      type="text"
+      name="title"
+      [(ngModel)]="title"
+      placeholder="Add Todo..."
+    />
+    <input type="submit" value="Submit" class="btn btn-primary btn-lg" />
+  </form>
+</div>

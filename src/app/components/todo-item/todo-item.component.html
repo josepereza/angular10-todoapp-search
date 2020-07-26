@@ -1,0 +1,13 @@
+<div class="container linea">
+  <input (change)="onToggle(element)" type="checkbox" [checked]=element.completed />
+  <div class="todo w-100 " (click)=editar(element.id)>
+
+    <!-- <a  [routerLink]="['edit', element.id]" > {{ element.title }}</a> -->
+    <span [class.isComplete]="element.completed">
+      {{ element.title }}
+    </span>
+
+    
+  </div>
+  <button class="del" (click)="onDelete(element)">x</button>
+</div>

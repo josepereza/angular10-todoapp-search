@@ -1,0 +1,31 @@
+.linea{
+  display:flex;
+  align-items: center;
+ 
+}
+.del {
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 100%;
+  cursor: pointer;
+ 
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  background: #f4f4f4;
+  padding: 10px 10px;
+  border-bottom: 1px #ccc dotted;
+  margin: 5px;
+  
+  
+}
+.todo span{
+  font-size: 1.5em;
+}
+.isComplete {
+  text-decoration: line-through;
+}

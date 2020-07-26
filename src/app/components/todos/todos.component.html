@@ -1,0 +1,8 @@
+<app-add-todo (addTodo)="addTodo($event)"></app-add-todo>
+<app-filter (filterTodo)=filterTodo($event)>  </app-filter>
+<todo-item  
+  *ngFor="let element of mitodo"
+  [element]="element"
+  (deleteTodo)="deleteTodo($event)"
+>
+</todo-item>

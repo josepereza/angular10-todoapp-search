@@ -1,0 +1,19 @@
+{
+  "tags": [
+    {
+      "title": "ir al banco a cambiar dinero rapido fff",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "title": "ir a la post",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "lavar mi perro en lavanderia",
+      "completed": false,
+      "id": 6
+    }
+  ]
+}
