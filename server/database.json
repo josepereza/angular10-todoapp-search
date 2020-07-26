@@ -6,14 +6,9 @@
       "id": 1
     },
     {
-      "title": "ir a la post",
+      "title": "mi perro",
       "completed": false,
-      "id": 5
-    },
-    {
-      "title": "lavar mi perro en lavanderia",
-      "completed": false,
-      "id": 6
+      "id": 2
     }
   ]
 }
